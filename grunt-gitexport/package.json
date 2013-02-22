@@ -1,0 +1,37 @@
+{
+  "name": "grunt-gitexport",
+  "description": "Does an archive export from git.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/smarkle/grunt-gitexport",
+  "author": {
+    "name": "Scott Markley",
+    "email": "smarkley@bignerdranch.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/smarkle/grunt-gitexport.git"
+  },
+  "bugs": {
+    "url": "https://github.com/smarkle/grunt-gitexport/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/smarkle/grunt-gitexport/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "grunt.js",
+  "bin": "bin/grunt-gitexport",
+  "engines": {
+    "node": "*"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt": "~0.3.17"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
